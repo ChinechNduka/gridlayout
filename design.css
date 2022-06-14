@@ -1,0 +1,56 @@
+.parent {
+    background-color: #0c1221;
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: 300px;
+    text-align: center;
+    padding: 20px;
+    border: 20px;
+    margin: 50px;
+
+
+}
+
+.child {
+    border: 5px solid #0c1221;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#child1 {
+    background-color: firebrick;
+    grid-column: 2 / 4;
+    grid-row: span 4;
+
+}
+
+#child2 {
+    background-color: gold;
+    grid-column: 4 / 4;
+    grid-row: span 4;
+
+}
+
+#child3 {
+    background-color: darkgreen;
+    grid-column: 2 / 4;
+    grid-row: span 4;
+
+}
+
+#child4 {
+    background-color: deepskyblue;
+    grid-column: 5 / 4;
+    grid-row: span 2;
+
+
+}
+
+#child5 {
+    background-color: deepskyblue;
+    grid-column: 5 / 4;
+    grid-row: span 2;
+
+
+}
